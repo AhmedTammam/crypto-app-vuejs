@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "ajv-keywords": "^3.2.0",
-    "coin-list-table": "AhmedTammam/coin-list-table#master",
-    "search-bar-form": "AhmedTammam/search-bar-vue#master",
     "vue": "^2.5.2",
+    "vue-components": "AhmedTammam/vue-components#master",
+    "vue-custom-element": "^3.2.3",
     "vue-resource": "^1.5.1"
   },
   "devDependencies": {
@@ -26,6 +26,7 @@
     "babel-plugin-transform-vue-jsx": "^3.5.0",
     "babel-preset-env": "^1.3.2",
     "babel-preset-stage-2": "^6.22.0",
+    "babel-preset-vue-app": "^2.0.0",
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.0",

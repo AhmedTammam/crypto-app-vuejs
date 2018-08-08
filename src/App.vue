@@ -8,7 +8,7 @@
     <div class="container-fluid">
       <div class="container">
         <SearchBar v-on:formSubmit="filtering"></SearchBar>
-        <CoinsList :coins="coins" :filteration="filteration"></CoinsList>
+        <CoinList :coins="coins" :filteration="filteration"></CoinList>
       </div>
     </div>
   </div>
@@ -17,16 +17,15 @@
 <script>
 
 import Logo from "./components/Logo"
-import SearchBar from 'search-bar-form'
-import CoinsList from 'coin-list-table'
-
+import { SearchBar} from 'vue-components'
+import CoinList from './components/CoinList'
 
 export default {
   name: 'App',
   components: {
+    Logo,
     SearchBar,
-    CoinsList,
-    Logo
+    CoinList
   },
   data(){
     return{

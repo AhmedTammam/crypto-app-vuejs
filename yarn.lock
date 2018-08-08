@@ -1251,12 +1251,6 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-coin-list-table@AhmedTammam/coin-list-table#master:
-  version "1.0.0"
-  resolved "https://codeload.github.com/AhmedTammam/coin-list-table/tar.gz/0dd07f887be0f21597de2497f7bac700a519ef30"
-  dependencies:
-    vue "^2.5.17"
-
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -4798,12 +4792,6 @@ schema-utils@^0.4.0, schema-utils@^0.4.5:
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
 
-search-bar-form@AhmedTammam/search-bar-vue#master, "search-bar-form@github:AhmedTammam/search-bar-vue#master":
-  version "0.1.0"
-  resolved "https://codeload.github.com/AhmedTammam/search-bar-vue/tar.gz/3968cbddb732f4d66647259d94a2646cc10c7f14"
-  dependencies:
-    vue "^2.5.17"
-
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
@@ -5527,6 +5515,12 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+vue-components@AhmedTammam/vue-components#master:
+  version "1.0.0"
+  resolved "https://codeload.github.com/AhmedTammam/vue-components/tar.gz/543fe4b1ce4ebbd7163c024251dd29d864b7b4ad"
+  dependencies:
+    vue "^2.5.17"
 
 vue-hot-reload-api@^2.2.0:
   version "2.3.0"
